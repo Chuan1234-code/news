@@ -31,13 +31,16 @@
             <section class="categories">
                 <button class="category-btn active" data-category="all">All News</button>
                 <button class="category-btn" data-category="tech">Technology</button>
-                <button class="category-btn" data-category="society">Society</button>
+                <button class="category-btn" data-category="economy">Economy</button>
+                <button class="category-btn" data-category="sports">Sports</button>
                 <button class="category-btn" data-category="entertainment">Entertainment</button>
-                <button class="category-btn" data-category="culture">Culture</button>
+                <button class="category-btn" data-category="finance">Finance</button>
+                <button class="category-btn" data-category="health">Health & Lifestyle</button>
             </section>
 
             <!-- 新闻列表 -->
             <section class="news-grid">
+                <!-- 科技新闻 -->
                 <article class="news-card tech" data-category="tech">
                     <div class="news-image">
                         <img src="images/mars-city.jpg" alt="Mars City">
@@ -53,6 +56,87 @@
                     </div>
                 </article>
 
+                <!-- 经济新闻 -->
+                <article class="news-card economy" data-category="economy">
+                    <div class="news-image">
+                        <img src="images/quantum-trade.jpg" alt="Quantum Trading">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">Economy</span>
+                        <h3 class="news-title">Quantum computing revolutionizes global supply chains</h3>
+                        <p class="news-excerpt">Real-time quantum optimization reduces international shipping times by 80%, disrupting traditional logistics...</p>
+                        <div class="news-meta">
+                            <span class="news-date">November 14, 2075</span>
+                            <a href="article.html?news=quantum-economy" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 体育新闻 -->
+                <article class="news-card sports" data-category="sports">
+                    <div class="news-image">
+                        <img src="images/zero-g-sports.jpg" alt="Zero Gravity Sports">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">Sports</span>
+                        <h3 class="news-title">Zero-gravity basketball becomes Olympic sport</h3>
+                        <p class="news-excerpt">The International Olympic Committee officially recognizes orbital sports, with first tournaments scheduled for 2076...</p>
+                        <div class="news-meta">
+                            <span class="news-date">November 12, 2075</span>
+                            <a href="article.html?news=zero-g-sports" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 娱乐新闻 -->
+                <article class="news-card entertainment" data-category="entertainment">
+                    <div class="news-image">
+                        <img src="images/ai-oscar.jpg" alt="AI Oscar">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">Entertainment</span>
+                        <h3 class="news-title">The first AI director wins an Oscar</h3>
+                        <p class="news-excerpt">NeuralNet Studios' AI director "CineBot" makes history by winning Best Director at the 2075 Academy Awards...</p>
+                        <div class="news-meta">
+                            <span class="news-date">November 8, 2075</span>
+                            <a href="article.html?news=ai-oscar" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 财经新闻 -->
+                <article class="news-card finance" data-category="finance">
+                    <div class="news-image">
+                        <img src="images/crypto-mars.jpg" alt="Mars Cryptocurrency">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">Finance</span>
+                        <h3 class="news-title">Mars establishes first interplanetary cryptocurrency</h3>
+                        <p class="news-excerpt">The Martian Central Bank launches "RedCoin," backed by rare mineral rights and orbital energy credits...</p>
+                        <div class="news-meta">
+                            <span class="news-date">November 7, 2075</span>
+                            <a href="article.html?news=mars-crypto" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 健康生活方式 -->
+                <article class="news-card health" data-category="health">
+                    <div class="news-image">
+                        <img src="images/genetic-wellness.jpg" alt="Genetic Wellness">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">Health & Lifestyle</span>
+                        <h3 class="news-title">Personalized gene therapy becomes standard healthcare</h3>
+                        <p class="news-excerpt">AI-driven genetic customization allows individuals to optimize their biology for longevity and cognitive performance...</p>
+                        <div class="news-meta">
+                            <span class="news-date">November 5, 2075</span>
+                            <a href="article.html?news=gene-therapy" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 社会新闻 -->
                 <article class="news-card society" data-category="society">
                     <div class="news-image">
                         <img src="images/virtual-love.jpg" alt="Virtual Relationship">
@@ -68,17 +152,18 @@
                     </div>
                 </article>
 
-                <article class="news-card entertainment" data-category="entertainment">
+                <!-- 文化新闻 -->
+                <article class="news-card culture" data-category="culture">
                     <div class="news-image">
-                        <img src="images/ai-oscar.jpg" alt="AI Oscar">
+                        <img src="images/digital-art.jpg" alt="Digital Art Revolution">
                     </div>
                     <div class="news-content">
-                        <span class="news-category">Entertainment</span>
-                        <h3 class="news-title">The first AI director wins an Oscar</h3>
-                        <p class="news-excerpt">NeuralNet Studios' AI director "CineBot" makes history by winning Best Director at the 2075 Academy Awards...</p>
+                        <span class="news-category">Culture</span>
+                        <h3 class="news-title">Neural interface art galleries redefine creative expression</h3>
+                        <p class="news-excerpt">Artists can now share sensory experiences directly through brain-computer interfaces, creating immersive exhibitions...</p>
                         <div class="news-meta">
-                            <span class="news-date">November 8, 2075</span>
-                            <a href="article.html?news=ai-oscar" class="read-more">Read More →</a>
+                            <span class="news-date">November 3, 2075</span>
+                            <a href="article.html?news=neural-art" class="read-more">Read More →</a>
                         </div>
                     </div>
                 </article>
